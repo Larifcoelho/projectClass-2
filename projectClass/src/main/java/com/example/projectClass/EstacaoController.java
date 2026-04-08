@@ -24,5 +24,12 @@ public class EstacaoController {
                            @RequestParam String t){
         return "Vídeo tocando: " + v + " no tempo " + t + "s";
     }
+    @GetMapping ("/soma")
+    public String somar(@RequestParam int a, @RequestParam int b){
+       int resultado = a + b;
+        return "O processamento do servidor resultou em: " + resultado;
+    }
+
+
 
 }
