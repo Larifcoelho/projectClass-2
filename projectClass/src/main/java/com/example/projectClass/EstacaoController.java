@@ -43,7 +43,6 @@ public class EstacaoController {
             return "Alerta de Sistema: Temperatura " + temperatura + "°C acima do limite! ";
         }
         return "Dados do sensor registrados: " + temperatura + "°C";
-
-
     }
+
 }
